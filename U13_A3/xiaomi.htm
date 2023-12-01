@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+    <title>
+        World Xiaomi Station
+    </title>
+
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffe9dc;
+            width: 888px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        h1 {
+            color: #4b75b8;
+        }
+
+        p {
+            color: #161716;
+        }
+
+        button {
+            display: inline-block;
+            background: #595856;
+            color: #fff;
+            padding: 1rem 1.5rem;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+
+            button:hover {
+                background: #4b75b8;
+            }
+
+        .menu-main ul {
+            list-style: none;
+            margin: 0;
+            padding-left: 0;
+            height: 50px;
+        }
+
+        a {
+            text-decoration: none;
+            background: #595856;
+            color: aliceblue;
+            padding: 0px 20px;
+            font-family: arial;
+            line-height: 60px;
+            display: block;
+            border-right: 2px solid #4b75b8;
+            -moz-transition: all 0.3s 0.01s ease;
+            -o-transition: all 0.3s 0.01s ease;
+            -webkit-transition: all 0.3s 0.01s ease;
+        }
+
+            a:hover {
+                background: #4b75b8;
+            }
+
+        .menu li {
+            float: left;
+        }
+
+        iframe {
+            float: left;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+        }
+
+    
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+       
+        .btn {
+            border: none;
+            outline: none;
+            padding: 12px 16px;
+            background-color: #4b75b8;
+            cursor: pointer;
+        }
+
+            .btn:hover {
+                background-color: #7f95e3;
+            }
+
+            .btn.active {
+                background-color: #666;
+                color: white;
+            }
+    </style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <img class="baner" src="image/stationbaner.png" alt=" Baner" style="width: 100%;" heihgt: auto;>
+
+
+    <center>
+        <p>
+            <nav class="menu-main">
+                <ul class="menu">
+                    <li><a href="index.html">Mobile Station</a> </li>
+                    <li><a href="iphone.htm">IPhone</a> </li>
+                    <li><a href="samsung.htm">Samsung</a> </li>
+                    <li><a href="xiaomi.htm">Xiaomi</a> </li>
+                    <li><a href="accessories.htm">Accessories</a> </li>
+                    <li><a href="simdeals.htm">Simdeals</a> </li>
+                    <li><a href="contact.htm">Contactus</a> </li>
+                    <li><a href="aboutus.htm">Aboutus</a> </li>
+                </ul>
+            </nav>
+        </p>
+    </center>
+    <br /><h1>Xiaomi</h1>
+
+          <p>
+              Xiaomi 13, 13 Pro and 13 Ultra continue Xiaomi's tradition of creating powerful flagships at an affordable price. 
+              The latest Snapdragon 8 Gen 2 provides speed at the level of the best Android smartphones.
+          </p>
+
+          <p>
+              The displays in the Xiaomi 13 series are distinguished by some of the best colors and contrast among smartphones, 
+              and the 120 Hz refresh rate makes the animation as smooth as possible. Triple and dual Leica cameras with unique modes allow you to create high-quality photos and videos.
+          </p>
+
+          <p>
+              And the compact and stylish Xiaomi 13 Lite based on Snapdragon 7 Gen 1 will be a worthy alternative to flagships for those who do not need maximum performance. Battery 
+              charge is enough for a full day of active use.
+          </p>
+
+
+    <div id="btnContainer">
+        <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button>
+        <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+    </div>
+    <br>
+
+    <div class="row">
+        <div class="column" style="background-color:#aaa;">
+            <h2>Xiaomi 13</h2>
+            <p> <img src="image/xiaomi_13.jpg" alt=" Xiaomi 13 "></p>
+
+            <ul>
+                <li>6.36-inch Full HD+ OLED display</li>
+                <li>Triple main camera 50MP + 12MP + 10MP</li>
+                <li>Front camera 32 MP</li>
+                <li>Snapdragon 8 Gen 2 processor</li>
+                <li>The battery capacity is 4500 mAh</li>
+            </ul>
+
+        </div>
+        <div class="column" style="background-color:#bbb;">
+            <h2>Xiaomi 13 Pro</h2>
+            <p><img src="image/xiaomi_13_pro.jpg" alt=" Xiaomi 13 Pro " /></p>
+            <ul>
+                <li>6.73-inch LTPO OLED QHD+ display</li>
+                <li>Triple main camera 50MP + 50MP + 50MP</li>
+                <li>Front camera 32 MP</li>
+                <li>Snapdragon 8 Gen 2 processor</li>
+                <li>Battery capacity 4820 mAh</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column" style="background-color:#ccc;">
+            <h2>Xiaomi 13 Lite</h2>
+            <p><img src="image/xiaomi_13_lite.png" alt=" Xiaomi 13 Lite"></p>
+            <ul>
+                <li>6.55-inch AMOLED Full HD+ 120Hz display</li>
+                <li>Dual main camera 50MP + 8MP</li>
+                <li>Front camera 32 MP</li>
+                <li>Snapdragon 7 Gen 1 processor</li>
+                <li>The battery capacity is 4500 mAh</li>
+            </ul>
+        </div>
+        <div class="column" style="background-color:#ddd;">
+            <h2>Xiaomi 13 Ultra</h2>
+            <p><img src="image/xiaomi_13_ultra.png" alt=" Xiaomi 13 Ultra" /></p>
+            <ul>
+                <li>6.78-inch 2K+ OLED display</li>
+                <li>Main camera 50 MP + 48 MP + 48 MP + 48 MP</li>
+                <li>Front camera 32 MP</li>
+                <li>Snapdragon 8 Gen 2 processor</li>
+                <li>Battery capacity 4820 mAh</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // Get the elements with class="column"
+        var elements = document.getElementsByClassName("column");
+
+        // Declare a loop variable
+        var i;
+
+        // List View
+        function listView() {
+            for (i = 0; i < elements.length; i++) {
+                elements[i].style.width = "100%";
+            }
+        }
+
+        // Grid View
+        function gridView() {
+            for (i = 0; i < elements.length; i++) {
+                elements[i].style.width = "50%";
+            }
+        }
+
+        /* Optional: Add active class to the current button (highlight it) */
+        var container = document.getElementById("btnContainer");
+        var btns = container.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
+
+    <iframe width="889" height="500" src="https://www.youtube.com/embed/MZ3OVPk2BLk" title="Top 5 BEST Xiaomi Phones In (2023)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <h1>About Xiaomi</h1>
+    <p>Therefore, the Xiaomi 13, 13 Pro and 13 Ultra are ideal for mobile users who want 
+    to get the top performance and camera capabilities of a flagship Android smartphone without overpaying. 
+    The Xiaomi 13 line combines the most modern technologies, innovative design and branded quality.</p>
+
+    <p>13 Lite will be a good option for young people and everyone who likes a stylish compact smartphone on 
+    a powerful mid-budget platform. Bright colors and a unique texture of the case will make 13 Lite owners stand out.</p>
+        
+    <p>Xiaomi 13 everyone will be able to choose the perfect smartphone for their taste and budget for work and entertainment at the highest level!</p>
+    
+    
+    <center>
+    `   <p>    
+            <nav class="menu-main">
+                <ul class="menu">
+                    <li><a href="index.html">Mobile Station</a> </li>
+                    <li><a href="iphone.htm">IPhone</a> </li>
+                    <li><a href="samsung.htm">Samsung</a> </li>
+                    <li><a href="xiaomi.htm">Xiaomi</a> </li>
+                    <li><a href="accessories.htm">Accessories</a> </li>
+                    <li><a href="simdeals.htm">Simdeals</a> </li>
+                    <li><a href="contact.htm">Contactus</a> </li>
+                    <li><a href="aboutus.htm">Aboutus</a> </li>
+                </ul>
+            </nav>
+        </p>
+    </center>
+</body>
+</html>

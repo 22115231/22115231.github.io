@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+
+    <title>
+        World Mobile Station
+    </title>
+
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffe9dc;
+            width: 888px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        h1 {
+            color: #4b75b8;
+        }
+
+        p {
+            color: #161716;
+        }
+
+        button {
+            display: inline-block;
+            background: #595856;
+            color: #fff;
+            padding: 1rem 1.5rem;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+
+        button:hover {
+            background: #4b75b8;
+        }
+
+        ul {
+            list-style: none; 
+            margin: 0; 
+            padding-left: 0;     
+            height: 50px; 
+        
+            }
+
+        a {
+            text-decoration: none; 
+            background: #595856; 
+            color: aliceblue; 
+            padding: 0px 20px; 
+            font-family: arial; 
+            line-height: 60px; 
+            display: block;
+            border-right: 2px solid #4b75b8; 
+            -moz-transition: all 0.3s 0.01s ease; 
+            -o-transition: all 0.3s 0.01s ease;
+            -webkit-transition: all 0.3s 0.01s ease;
+        }
+
+            a:hover {
+                background: #4b75b8; 
+            }
+
+        li {
+            float: left; 
+        }
+        iframe {
+            float: left;
+        }
+    .button{
+        float: right;
+    }
+    </style>
+
+
+
+</head>
+<body>
+
+
+
+
+
+    <img class="baner" src="image/stationbaner.png" alt=" Baner" style="width: 100%;" heihgt: auto;>
+
+
+    <center>
+        <p>
+            <nav class="menu-main">
+                <ul class="menu">
+                    <li><a href="index.html">Mobile Station</a> </li>
+                    <li><a href="iphone.htm">IPhone</a> </li>
+                    <li><a href="samsung.htm">Samsung</a> </li>
+                    <li><a href="xiaomi.htm">Xiaomi</a> </li>
+                    <li><a href="accessories.htm">Accessories</a> </li>
+                    <li><a href="simdeals.htm">Simdeals</a> </li>
+                    <li><a href="contact.htm">Contactus</a> </li>
+                    <li><a href="aboutus.htm">Aboutus</a> </li>
+                </ul>
+            </nav>
+
+
+        </p>
+    </center>
+    <br /><h1>World Mobile Station</h1>
+
+
+    <script>
+
+        //Time of day message script- by javascriptkit.com
+        //Visit JavaScript Kit (http://javascriptkit.com) for script
+        //Credit must stay intact for use
+
+        var Digital = new Date()
+        var hours = Digital.getHours()
+
+        //Configure message below to your own.
+        if (hours >= 5 && hours <= 11) //MESSAGE FOR MORNING
+            document.write('<b>Welcome to our site. Good morning visitor.</b>')
+        else if (hours == 12) //MESSAGE FOR NOON
+            document.write('<b>It is high noon. Thanks for dropping by!</b>')
+        else if (hours >= 13 && hours <= 17) //MESSAGE FOR AFTERNOON
+            document.write('<b>Good afternoon, and thanks for visiting.</b>')
+        else if (hours >= 18 && hours <= 20) //MESSAGE FOR EVENING (6pm-8pm)
+            document.write('<b>Good evening. Hope you\'re enjoying the gentle breeze</b>')
+        else if (hours >= 21 && hours <= 11) //MESSAGE FOR NIGHT (9pm-11pm)
+            document.write('<b>Glad to see you this time of the night.</b>')
+        else //MESSAGE FOR LATE NIGHT, EARLY MORNING (12pm-4am)
+            document.write('<b>Wow, thanks for choosing to visit our site over sleep!</b>')
+
+
+
+
+
+
+    </script>
+
+    <p>
+        Welcome to World Mobile Station! Our company is dedicated to the creation and design of mobile phones,
+        <br /> accessories and SIM cards. We strive to provide our customers with access to the latest technologies and stylish
+        <br /> solutions in the field of mobile communications.
+    </p>
+
+    <center>
+        <div class="Phones">
+            <p>
+                <img src="image/iphone.jpg" alt=" Iphones ">
+                <button onclick="document.location='iphone.htm'">See more</button>
+                <img src="image/samsung.png" alt=" Samsung ">
+                <button onclick="document.location='samsung.htm'">See more</button>
+            </p>
+
+            <p>
+                <img src="image/xiaomi.png" alt=" xiaomi ">
+                <button onclick="document.location='xiaomi.htm'">See more</button>
+                <img src="image/accessories.png" alt=" accessories ">
+                <button onclick="document.location='accessories.htm'">See more</button>
+            </p>
+        </div>
+    </center>
+
+    <p>
+        We offer a wide selection of Samsung, iPhone, Xiaomi smartphones - leading manufacturers of mobile technologies. In addition to phones, we also provide accessories such as chargers, portable batteries (power banks) and protective cases compatible with most models of popular brands.
+
+        On our website, you can find detailed information about each phone model and accessory, as well as compare their characteristics. This will help you make the right choice!
+    </p>
+
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/efNva-0sdoo" title="How to choose the best phone for you" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen;></iframe>
+
+
+    <p>
+        <a href="simdeals.htm"> <img src="image/sim_tarif.png" alt="map" style="float:right;width:364px;height:458px;"> </a>
+    </p>
+
+    <h1> Feedback form:</h1>
+    <h3>Send e-mail to 22115231@cambria.ac.uk:</h3>
+
+    <div class="">
+        <form action="mailto:22115231@cambria.ac.uk" method="post" enctype="text/plain">
+            Name:<br>
+            <input type="text" name="name"><br>
+            E-mail:<br>
+            <input type="text" name="mail"><br>
+            Comment:<br>
+            <input type="text" name="comment" size="50"><br><br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+
+    <nav class="menu-second">
+        <ul class="menu">
+            <li><a href="index.html">Mobile Station</a> </li>
+            <li><a href="iphone.htm">IPhone</a> </li>
+            <li><a href="samsung.htm">Samsung</a> </li>
+            <li><a href="xiaomi.htm">Xiaomi</a> </li>
+            <li><a href="accessories.htm">Accessories</a> </li>
+            <li><a href="simdeals.htm">Simdeals</a> </li>
+            <li><a href="contact.htm">Contactus</a> </li>
+            <li><a href="aboutus.htm">Aboutus</a> </li>
+        </ul>
+    </nav>
+
+</body>
+</html>

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+    <title>
+        World Accessories Station
+    </title>
+
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffe9dc;
+            width: 888px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        h1 {
+            color: #4b75b8;
+        }
+
+        p {
+            color: #161716;
+        }
+
+        button {
+            display: inline-block;
+            background: #595856;
+            color: #fff;
+            padding: 1rem 1.5rem;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+
+            button:hover {
+                background: #4b75b8;
+            }
+
+        .menu-main ul {
+            list-style: none;
+            margin: 0;
+            padding-left: 0;
+            height: 50px;
+        }
+
+        a {
+            text-decoration: none;
+            background: #595856;
+            color: aliceblue;
+            padding: 0px 20px;
+            font-family: arial;
+            line-height: 60px;
+            display: block;
+            border-right: 2px solid #4b75b8;
+            -moz-transition: all 0.3s 0.01s ease;
+            -o-transition: all 0.3s 0.01s ease;
+            -webkit-transition: all 0.3s 0.01s ease;
+        }
+
+            a:hover {
+                background: #4b75b8;
+            }
+
+        .menu li {
+            float: left;
+        }
+
+        iframe {
+            float: left;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+        }
+
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .btn {
+            border: none;
+            outline: none;
+            padding: 12px 16px;
+            background-color: #4b75b8;
+            cursor: pointer;
+        }
+
+            .btn:hover {
+                background-color: #7f95e3;
+            }
+
+            .btn.active {
+                background-color: #666;
+                color: white;
+            }
+    </style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <img class="baner" src="image/stationbaner.png" alt=" Baner" style="width: 100%;" heihgt: auto;>
+
+
+    <center>
+        <p>
+            <nav class="menu-main">
+                <ul class="menu">
+                    <li><a href="index.html">Mobile Station</a> </li>
+                    <li><a href="iphone.htm">IPhone</a> </li>
+                    <li><a href="samsung.htm">Samsung</a> </li>
+                    <li><a href="xiaomi.htm">Xiaomi</a> </li>
+                    <li><a href="accessories.htm">Accessories</a> </li>
+                    <li><a href="simdeals.htm">Simdeals</a> </li>
+                    <li><a href="contact.htm">Contactus</a> </li>
+                    <li><a href="aboutus.htm">Aboutus</a> </li>
+                </ul>
+            </nav>
+        </p>
+    </center>
+    <br /><h1>Accessories</h1>
+
+
+          <p>Power banks - compact and powerful power sources for recharging smartphones, tablets and even laptops while traveling or far from an outlet 
+    - have become an integral part of the gadgets of the era of mobility. Capacitive batteries in combination with modern fast charging technologies make 
+    power banks indispensable devices for all connoisseurs of mobile devices.</p>
+
+          <p>The assortment of our catalog includes compact MagSafe compatible models from 5000 mAh for iPhone, high-performance 25600 mAh giants with several 
+    USB outputs for simultaneous charging of a whole group of equipment, as well as convenient pocket options with a capacity of 20000 mAh with LED flashlight 
+    and indicator of the remaining charge .</p>
+    
+    
+    <div id="btnContainer">
+        <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button>
+        <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+    </div>
+    <br>
+
+    <div class="row">
+        <div class="column" style="background-color: #ccc;">
+            <h2>Anker powercore 25600</h2>
+            <p> <img src="image/power_android_bank.jpg" alt=" Power Android Bank"></p>
+
+            <ul>
+                <li>Battery capacity: 25600 mAh</li>
+                <li>2 USB ports with an output power of 5V/3A</li>
+                <li>Support for PowerIQ and VoltageBoost fast charging</li>
+                <li>Can fully recharge iPhone X more than 7 times</li>
+                <li>Can charge MacBook to 100%</li>
+                <li>Battery type: lithium-polymer (Li-Po)</li>
+                <li>Input: 5V/2A</li>
+                <li>Overcharge and short circuit protection</li>
+                <li>4 charge level indicators</li>
+                <li>Compact, durable and easy to carry design</li>
+                <li>Dimensions: 14.5 x 6.6 x 2.3 cm</li>
+                <li>Weight: 490 g</li>
+                <li>Delivery set: microUSB cable</li>
+            </ul>
+
+        </div>
+        <div class="column" style="background-color:#fff";">
+            <h2>Anker 622 Magnetic Wireless</h2>
+            <p><img src="image/power_iphone_bank.jpg" alt=" Power IPhone Bank" /></p>
+            <ul>
+                <li>Compatible with iPhone 12 and newer smartphones for MagSafe wireless charging</li>
+                <li>MagGo magnetic fastening technology that holds the device securely in place</li>
+                <li>Battery capacity: 5000 mAh</li>
+                <li>Output voltage: 5 V</li>
+                <li>Output current: 1 A</li>
+                <li>2 coils for wireless charging of smartphones</li>
+                <li>Support for fast charging up to 7.5 W</li>
+                <li>Compact compact design for easy portability</li>
+                <li>4 charge level indicators</li>
+                <li>Battery type: lithium-ion</li>
+                <li>Overcharge and short circuit protection</li>
+                <li>Delivery: USB-C cable</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column" style="background-color:#ccc;">
+            <h2>Xiaomi 13 Lite</h2>
+            <p><img src="image/power_android_bank2.jpg" alt=" Power Android Bank"></p>
+            <ul>
+                <li>Battery capacity: 20000 mAh</li>
+                <li>Dimensions: 15.5 x 7.2 x 2.4 cm</li>
+                <li>Weight: 393 g</li>
+                <li>2 USB-A ports output voltage: 5V/2.4A</li>
+                <li>Support for Quick Charge 3.0 and PowerIQ for fast charging</li>
+                <li>Can fully charge iPhone Xs up to 7 times</li>
+                <li>4 charge level indicators</li>
+                <li>LED flashlight</li>
+                <li>Protection against overcharging and short circuit</li>
+                <li>Battery type: lithium-polymer (Li-Po)</li>
+                <li>Input: 5V/2A</li>
+                <li>Complete set: microUSB cable</li>
+            </ul>
+        </div>
+        <div class="column" style="background-color:#fff;">
+            <h2>Apple MagSafe Battery Pack</h2>
+            <p><img src="image/power_iphone_bank2.jfif" alt="Power IPhone Bank" /></p>
+            <ul>
+                <li>Compatibility: iPhone 12, 13, 14 and newer models</li>
+                <li>MagSafe magnetic wireless mount</li>
+                <li>Battery capacity: 1460 mAh</li>
+                <li>Output power: 5 W (iPhone 12 mini/13 mini/14), 15 W (other iPhone 12/13/14)</li>
+                <li>1 charge level indicator with 4 segments</li>
+                <li>Charges from the Lightning connector</li>
+                <li>Support for fast charging when connected to a 20W power adapter</li>
+                <li>Compact and light body</li>
+                <li>Soft fabric on the outer surface</li>
+                <li>Protection against overheating and overvoltage</li>
+                <li>Operation in the temperature range from 0° to 35°C</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // Get the elements with class="column"
+        var elements = document.getElementsByClassName("column");
+
+        // Declare a loop variable
+        var i;
+
+        // List View
+        function listView() {
+            for (i = 0; i < elements.length; i++) {
+                elements[i].style.width = "100%";
+            }
+        }
+
+        // Grid View
+        function gridView() {
+            for (i = 0; i < elements.length; i++) {
+                elements[i].style.width = "50%";
+            }
+        }
+
+        /* Optional: Add active class to the current button (highlight it) */
+        var container = document.getElementById("btnContainer");
+        var btns = container.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
+
+    <h1>About Accessories</h1>
+    <p>Therefore, the models of power banks presented in our catalog from the leading brands Anker, Apple and imuto will provide reliable mobile charging for various smartphones, tablets and even laptops.</p>
+
+
+
+    <center>
+           <p>
+            <nav class="menu-main">
+                <ul class="menu">
+                    <li><a href="index.html">Mobile Station</a> </li>
+                    <li><a href="iphone.htm">IPhone</a> </li>
+                    <li><a href="samsung.htm">Samsung</a> </li>
+                    <li><a href="xiaomi.htm">Xiaomi</a> </li>
+                    <li><a href="accessories.htm">Accessories</a> </li>
+                    <li><a href="simdeals.htm">Simdeals</a> </li>
+                    <li><a href="contact.htm">Contactus</a> </li>
+                    <li><a href="aboutus.htm">Aboutus</a> </li>
+                </ul>
+            </nav>
+        </p>
+    </center>
+</body>
+</html>

@@ -1,0 +1,297 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+
+    <title>
+        World IPhone Station
+    </title>
+
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffe9dc;
+            width: 888px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        h1 {
+            color: #4b75b8;
+        }
+
+        p {
+            color: #161716;
+        }
+
+        button {
+            display: inline-block;
+            background: #595856;
+            color: #fff;
+            padding: 1rem 1.5rem;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+
+            button:hover {
+                background: #4b75b8;
+            }
+
+       .menu-main ul {
+            list-style: none;
+            margin: 0;
+            padding-left: 0;
+            height: 50px;
+        }
+
+        a {
+            text-decoration: none;
+            background: #595856;
+            color: aliceblue;
+            padding: 0px 20px;
+            font-family: arial;
+            line-height: 60px;
+            display: block;
+            border-right: 2px solid #4b75b8;
+            -moz-transition: all 0.3s 0.01s ease;
+            -o-transition: all 0.3s 0.01s ease;
+            -webkit-transition: all 0.3s 0.01s ease;
+        }
+
+            a:hover {
+                background: #4b75b8;
+            }
+
+        .menu li {
+            float: left;
+        }
+
+        iframe {
+            float: left;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Create two equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* Style the buttons */
+        .btn {
+            border: none;
+            outline: none;
+            padding: 12px 16px;
+            background-color: #4b75b8;
+            cursor: pointer;
+        }
+
+            .btn:hover {
+                background-color: #7f95e3;
+            }
+
+            .btn.active {
+                background-color: #666;
+                color: white;
+            }
+    </style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <img class="baner" src="image/stationbaner.png" alt=" Baner" style="width: 100%;" heihgt: auto;>
+
+
+    <center>
+        <p>
+            <nav class="menu-main">
+                <ul class="menu">
+                    <li><a href="index.html">Mobile Station</a> </li>
+                    <li><a href="iphone.htm">IPhone</a> </li>
+                    <li><a href="samsung.htm">Samsung</a> </li>
+                    <li><a href="xiaomi.htm">Xiaomi</a> </li>
+                    <li><a href="accessories.htm">Accessories</a> </li>
+                    <li><a href="simdeals.htm">Simdeals</a> </li>
+                    <li><a href="contact.htm">Contactus</a> </li>
+                    <li><a href="aboutus.htm">Aboutus</a> </li>
+                </ul>
+            </nav>
+        </p>
+    </center>
+    <br /><h1>IPhones</h1>
+
+          <p>
+              Apple's iPhone 15 lineup takes smartphones to a new level of performance and efficiency. The latest A16 Bionic processor for 
+              regular models and even more powerful A17 Bionic for Pro versions will ensure ultra-fast processing of any tasks.
+          </p>
+
+          <p>
+              OLED displays in all iPhone 15 reproduce incredibly bright, realistic colors and smooth HDR content. Pro models feature 
+              ProMotion dynamic refresh technology up to 120Hz for even smoother animations and scrolling. And the built-in always-on display mode allows you to view important information even on the locked screen.
+
+          </p>
+
+          <p>
+              The first-class camera system with ProRes optics and incredibly detailed 48MP shooting capabilities in Pro models will allow you to take professional photos and videos. And the autonomy of all iPhone 
+              15 reaches record levels thanks to the optimization of iOS 16 and new batteries.
+          </p>
+
+  
+    <div id="btnContainer">
+        <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button>
+        <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+    </div>
+    <br>
+
+    <div class="row">
+        <div class="column" style="background-color:#aaa;">
+            <h2>IPhone 15</h2>
+            <p> <img src="image/iphone15_pluse.png" alt=" Iphones15 "></p>
+
+            <ul>
+                <li>6.1-inch OLED display</li>
+                <li>A16 Bionic chipset</li>
+                <li>Dual main camera 12 MP</li>
+                <li>Front camera 12MP</li>
+                <li>5G, Wi-Fi 6, Bluetooth 5.3</li>
+                <li>Up to 19 hours of video playback</li>
+            </ul>
+
+        </div>
+        <div class="column" style="background-color:#bbb;">
+            <h2>IPhone 15 pro</h2>
+            <p><img src="image/iphone15_pro_max.png" alt=" Iphone15pro" /></p>
+            <ul>
+                <li>6.1-inch ProMotion display with adaptive refresh rate up to 120 Hz</li>
+                <li>A17 Bionic chipset</li>
+                <li>Triple main camera 48 MP</li>
+                <li>Front camera 12MP</li>
+                <li>Up to 23 hours of video playback</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column" style="background-color:#ccc;">
+            <h2>IPhone 15 Pluse</h2>
+            <p><img src="image/iphone15_pluse.png" alt=" Iphone15pluse"></p>
+            <ul>
+                <li>6.7-inch OLED display</li>
+                <li>A16 Bionic chipset</li>
+                <li>Triple main camera 12MP</li>
+                <li>Front camera 12MP</li>
+                <li>5G, Wi-Fi 6, Bluetooth 5.3</li>
+                <li>Up to 25 hours of video playback</li>
+            </ul>
+        </div>
+        <div class="column" style="background-color:#ddd;">
+            <h2>IPhone 15 pro max</h2>
+            <p><img src="image/iphone15_pro_max.png" alt=" Iphone15promax" /></p>
+            <ul>
+                <li>6.7-inch ProMotion display with adaptive refresh rate up to 120 Hz</li>
+                <li>A17 Bionic chipset</li>
+                <li>Triple main camera 48 MP</li>
+                <li>Front camera 12MP</li>
+                <li>Up to 29 hours of video playback</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // Get the elements with class="column"
+        var elements = document.getElementsByClassName("column");
+
+        // Declare a loop variable
+        var i;
+
+        // List View
+        function listView() {
+            for (i = 0; i < elements.length; i++) {
+                elements[i].style.width = "100%";
+            }
+        }
+
+        // Grid View
+        function gridView() {
+            for (i = 0; i < elements.length; i++) {
+                elements[i].style.width = "50%";
+            }
+        }
+
+        /* Optional: Add active class to the current button (highlight it) */
+        var container = document.getElementById("btnContainer");
+        var btns = container.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
+
+    
+    <center>
+        <iframe width="889" height="500" src="https://www.youtube.com/embed/xqyUdNxWazA" title="Introducing iPhone 15 Pro | Apple" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </center>
+    
+    
+    <h1>About IPhone</h1>
+    <h4>The key upgrades are improvements in performance, cameras, displays and battery life compared to the iPhone 14.</h4>
+    <h5>Display:</h5>
+    <ul>
+        <li>iPhone 15 Pro models received an always-on display that constantly displays the time, widgets and information when the screen is locked.</li>
+    </ul>
+    <h5>Processor</h5>
+    <ul>
+        <li>The iPhone 15 is equipped with the latest A16 Bionic chip, and the Pro models are equipped with an even more powerful A17 chipset, which is 30% faster than the previous one.</li>
+    </ul>
+    <h5>Cell:</h5>
+    <ul>
+        <li>Pro models are equipped with a main camera with a resolution of 48 MP, which allows you to take photos with incredible detail.</li>
+    </ul>
+    <h5>Charge and autonomy:</h5>
+    <ul>
+        <li>Battery capacity has increased in all iPhone 15 models. Battery life has increased by several hours.</li>
+    </ul>
+    <center>
+        <p>
+            <nav class="menu-main">
+                <ul class="menu">
+                    <li><a href="index.html">Mobile Station</a> </li>
+                    <li><a href="iphone.htm">IPhone</a> </li>
+                    <li><a href="samsung.htm">Samsung</a> </li>
+                    <li><a href="xiaomi.htm">Xiaomi</a> </li>
+                    <li><a href="accessories.htm">Accessories</a> </li>
+                    <li><a href="simdeals.htm">Simdeals</a> </li>
+                    <li><a href="contact.htm">Contactus</a> </li>
+                    <li><a href="aboutus.htm">Aboutus</a> </li>
+                </ul>
+            </nav>
+        </p>
+    </center>
+</body>
+</html>

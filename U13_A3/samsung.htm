@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+    <title>
+        World Samsung Station
+    </title>
+
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffe9dc;
+            width: 888px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        h1 {
+            color: #4b75b8;
+        }
+
+        p {
+            color: #161716;
+        }
+
+        button {
+            display: inline-block;
+            background: #595856;
+            color: #fff;
+            padding: 1rem 1.5rem;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+
+            button:hover {
+                background: #4b75b8;
+            }
+
+        .menu-main ul {
+            list-style: none;
+            margin: 0;
+            padding-left: 0;
+            height: 50px;
+        }
+
+        a {
+            text-decoration: none;
+            background: #595856;
+            color: aliceblue;
+            padding: 0px 20px;
+            font-family: arial;
+            line-height: 60px;
+            display: block;
+            border-right: 2px solid #4b75b8;
+            -moz-transition: all 0.3s 0.01s ease;
+            -o-transition: all 0.3s 0.01s ease;
+            -webkit-transition: all 0.3s 0.01s ease;
+        }
+
+            a:hover {
+                background: #4b75b8;
+            }
+
+        .menu li {
+            float: left;
+        }
+
+        iframe {
+            float: left;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+    
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+        }
+
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+            color: #909c9e;
+        }
+        
+        .btn {
+            border: none;
+            outline: none;
+            padding: 12px 16px;
+            background-color: #4b75b8;
+            cursor: pointer;
+        }
+
+            .btn:hover {
+                background-color: #7f95e3;
+            }
+
+            .btn.active {
+                background-color: #666;
+                color: white;
+            }
+    </style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <img class="baner" src="image/stationbaner.png" alt=" Baner" style="width: 100%;" heihgt: auto;>
+
+
+    <center>
+        <p>
+            <nav class="menu-main">
+                <ul class="menu">
+                    <li><a href="index.html">Mobile Station</a> </li>
+                    <li><a href="iphone.htm">IPhone</a> </li>
+                    <li><a href="samsung.htm">Samsung</a> </li>
+                    <li><a href="xiaomi.htm">Xiaomi</a> </li>
+                    <li><a href="accessories.htm">Accessories</a> </li>
+                    <li><a href="simdeals.htm">Simdeals</a> </li>
+                    <li><a href="contact.htm">Contactus</a> </li>
+                    <li><a href="aboutus.htm">Aboutus</a> </li>
+                </ul>
+            </nav>
+        </p>
+    </center>
+    <br /><h1>Samsungs</h1>
+
+          <p>
+              The flagship Galaxy S23, S23+ and S23 Ultra continue Samsung's tradition of exceptional performance and camera capabilities. The latest Snapdragon 8 Gen 
+              2 processor and intelligent cooling system ensure the highest operating speed.
+          </p>
+
+          <p>
+              Dynamic AMOLED displays with HDR10+ support and a refresh rate of up to 120 Hz reproduce incredibly smooth and detailed content. S23 Ultra with 200 MP camera 
+              and 100X Space Zoom will be useful for photographers and videographers.
+          </p>
+
+          <p>
+              The foldable Galaxy Z Flip4 combines a stylish design with a flexible display. And the Flex mode allows you to shoot videos and take selfies at unique angles. 
+              The battery capacities of Samsung smartphones have been significantly increased for round-the-clock productivity.
+          </p>
+
+
+    <div id="btnContainer">
+        <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button>
+        <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+    </div>
+    <br>
+
+    <div class="row">
+        <div class="column" style="background-color:#aaa;">
+            <h2>Samsung S23</h2>
+            <p> <img src="image/samsung_s23.png" alt=" samsung S23 "></p>
+
+            <ul>
+                <li>6.1-inch Dynamic AMOLED 2X Full HD+ display</li>
+                <li>Triple main camera 50MP</li>
+                <li>Front camera 12MP</li>
+                <li>Front camera 12MP</li>
+                <li>Snapdragon 8 Gen 2 processor</li>
+                <li>The battery capacity is 3900 mAh</li>
+            </ul>
+
+        </div>
+        <div class="column" style="background-color:#bbb;">
+            <h2>Samsung S23 ultra</h2>
+            <p><img src="image/Samsung S23 ultra.jpg" alt=" samsung S23 ultra+" /></p>
+            <ul>
+                <li>6.8-inch Dynamic AMOLED 2X QHD+</li>
+                <li>The main camera is 200 MP + 10 MP + 10 MP + 10 MP</li>
+                <li>Front camera 40 MP</li>
+                <li>Snapdragon 8 Gen 2 processor</li>
+                <li>The battery capacity is 5000 mAh</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column" style="background-color:#ccc;">
+            <h2>Samsung S23+</h2>
+            <p><img src="image/Samsung_S23+.jpg" alt=" Samsung S23+"/></p>
+            <ul>
+                <li>6.6-inch Dynamic AMOLED 2X Full HD+ display</li>
+                <li>Triple main camera 50MP</li>
+                <li>Front camera 12MP</li>
+                <li>Snapdragon 8 Gen 2 processor</li>
+                <li>The battery capacity is 4700 mAh</li>
+            </ul>
+        </div>
+        <div class="column" style="background-color:#ddd;">
+            <h2>Samsung Z Flip 4</h2>
+            <p><img src="image/Samsung_Z_Flip4.jpg" alt=" Iphone15promax" /></p>
+            <ul>
+                <li>Folding 6.7-inch Dynamic AMOLED 2X Full HD+</li>
+                <li>Dual main camera 12 MP</li>
+                <li>Front camera 10 MP</li>
+                <li>Snapdragon 8+ Gen 1 processor</li>
+                <li>The battery capacity is 3700 mAh</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+     
+        var elements = document.getElementsByClassName("column");
+
+        
+        var i;
+
+
+        function listView() {
+            for (i = 0; i < elements.length; i++) {
+                elements[i].style.width = "100%";
+            }
+        }
+
+        function gridView() {
+            for (i = 0; i < elements.length; i++) {
+                elements[i].style.width = "50%";
+            }
+        }
+
+       
+        var container = document.getElementById("btnContainer");
+        var btns = container.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
+
+    <iframe width="889" height="500" src="https://www.youtube.com/embed/yxTTxknt1Ks" title="TOP 5: Best Samsung Phones 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <h1>About Samsungs</h1>
+    <p>So the Galaxy S23, S23+ and S23 Ultra are ideal for mobile professionals, business 
+    people, photographers and anyone who wants the best performance and technology from an Android smartphone. 
+    And Galaxy Z Flip4 will be a great choice for fashionistas and individualists with an original vision of style 
+    and mobile capabilities.</p>
+
+    <p>Thanks to innovative design, multifunctional cameras, high speed and improved autonomy, Samsung Galaxy S and 
+    Z series smartphones will satisfy the needs of even the most demanding users. Work and entertainment at the highest level are guaranteed!</p>
+    <center>
+        <p>
+            <nav class="menu-main">
+                <ul class="menu">
+                    <li><a href="index.html">Mobile Station</a> </li>
+                    <li><a href="iphone.htm">IPhone</a> </li>
+                    <li><a href="samsung.htm">Samsung</a> </li>
+                    <li><a href="xiaomi.htm">Xiaomi</a> </li>
+                    <li><a href="accessories.htm">Accessories</a> </li>
+                    <li><a href="simdeals.htm">Simdeals</a> </li>
+                    <li><a href="contact.htm">Contactus</a> </li>
+                    <li><a href="aboutus.htm">Aboutus</a> </li>
+                </ul>
+            </nav>
+        </p>
+    </center>
+</body>
+</html>
