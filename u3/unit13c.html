@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Puhach - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("img/bg.gif");
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #555;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 20px;
+            margin-top: 50px;
+        }
+
+        .content {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .pdf-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .pdf-container embed {
+            width: 400px;
+            height: 500px;
+            margin: 0 10px;
+        }
+
+        .video-container {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Max Puhach</h1>
+        <p>Cambria College - Level 2 IT Student</p>
+    </header>
+
+     <nav>
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About me</a>
+        <a href="unit12.html">Unit 1&2</a>
+        <a href="unit14.html">Unit 14</a>
+        <a href="unit8.html">Unit 8</a>
+        <a href="unit13.html">Unit 13</a>
+        <a href="unit13c.html">Unit 13 Context page</a>
+        <a href="unit8c.html">Unit 8 Context page</a>
+    </nav>
+
+    <main>
+        <div class="content">
+            <p>On this page, I will showcase the evidence of my work done during Unit 13, where I focused on web development and gained valuable experience working with HTML, CSS, and JavaScript.</p>
+            <p>Below, you will find two PDF files containing my assignments and a video demonstrating the website I created as part of this unit.</p>
+        
+        </div>
+
+        <div class="pdf-container">
+            <embed src="documents/u13w.pdf" type="application/pdf" width="400" height="500" />
+            <embed src="documents/u13d.pdf" type="application/pdf" width="400" height="500" />
+        </div>
+
+        <div class="video-container">
+            <video width="640" height="360" controls>
+                <source src="video/web.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </main>
+</body>
+</html>
